@@ -1,0 +1,84 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #254D4D;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #303f9f;
+  border-radius: 4px;
+}
+
+.banner {
+  background-image: url('https://agenciaviagemdossonhos.com.br/wp-content/uploads/2022/12/hallstatt-2374936_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+main section {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #254D4D;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #ffeb3b;
+  display: block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #fff176;
+}
